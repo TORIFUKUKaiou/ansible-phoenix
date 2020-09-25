@@ -3,3 +3,9 @@
   apt:
     name: nodejs
     state: present
+
+- name: Install npm
+  become: true
+  apt:
+    name: npm
+    state: present
