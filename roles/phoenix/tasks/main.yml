@@ -3,3 +3,4 @@
 - hosts: phoenix
   tasks:
     - import_tasks: _setup.yml
+    - import_tasks: _nodejs.yml
